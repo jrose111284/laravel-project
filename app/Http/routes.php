@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Route::get('/post/{id}', 'PostsController@index');
+
+Route::resource('post', 'PostsController');
+
+    
