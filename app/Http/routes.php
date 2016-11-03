@@ -22,4 +22,6 @@ Route::get('/contact', 'PostsController@contact');
 //
 //Route::resource('post', 'PostsController');
 
+Route::get('post/{id}', 'PostsController@showposts');
+
     
